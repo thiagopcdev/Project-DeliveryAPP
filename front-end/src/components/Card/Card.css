@@ -1,0 +1,109 @@
+.btn-add {
+  align-items: flex-end;
+  background-color: rgb(59, 90, 59);
+  border: none;
+  border-radius: 5px 0 0 5px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: 900;
+  justify-content: center;
+  text-align: center;
+  transition: 0.2s;
+  width: 25px;
+}
+
+.btn-add:hover {
+  background-color: rgb(150, 173, 150);
+  color: rgb(59, 90, 59);
+  cursor: pointer;
+}
+
+.btn-sub {
+  align-items: flex-end;
+  background-color: rgb(59, 90, 59);
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: 900;
+  justify-content: center;
+  transition: 0.2s;
+  width: 25px;
+}
+
+.btn-sub:hover {
+  background-color: rgb(150, 173, 150);
+  color: rgb(59, 90, 59);
+  cursor: pointer;
+}
+
+.container-buttons {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex: row wrap;
+  justify-content: center;
+}
+
+.card-body {
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px grey;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  overflow: hidden;
+  width: 220px;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.div-buttons {
+  align-content: center;
+  align-items: center;
+  background-color: rgba(125, 167, 163, 0.246);
+  display: flex;
+  flex-flow: column wrap;
+  height: 80px;
+  justify-content: center;
+}
+
+.drink-name {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.price {
+  background-color: rgba(125, 167, 163, 0.246);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  position: absolute;
+}
+
+img {
+  margin: auto;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.input-quantity {
+  border: none;
+  color: gray;
+  font-size: 15px;
+  height: 100%;
+  padding: 2px;
+  text-align: center;
+  width: 12%;
+  z-index: 0;
+}

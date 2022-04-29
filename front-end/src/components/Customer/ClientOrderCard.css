@@ -1,0 +1,101 @@
+.client-orders-card-container {
+  background-color: whitesmoke;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  height: 100px;
+  margin: 20px 15px;
+  width: 440px;
+}
+
+.client-orders-card-container:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.order-section {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+
+.order-div {
+  font-size: 11px;
+}
+
+.status-section-Entregue {
+  align-items: center;
+  background-color: #2fc1ae;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+  justify-content: center;
+  margin: 5px 10px;
+  padding: 20px 50px;
+}
+
+.status-section-Transito {
+  align-items: center;
+  background-color: #37b9ec;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+  justify-content: center;
+  margin: 5px 10px;
+  padding: 20px 50px;
+}
+
+.status-section-Pendente {
+  align-items: center;
+  background-color: #c1bf2f;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+  justify-content: center;
+  margin: 5px 10px;
+  padding: 20px 50px;
+}
+
+.status-section-Preparando {
+  align-items: center;
+  background-color: #2fc15b;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+  justify-content: center;
+  margin: 5px 10px;
+  padding: 20px 37px;
+}
+
+.data-value-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.date-field {
+  background-color: white;
+  display: flex;
+  font-weight: 500;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px 10px;
+  width: 125px;
+}
+
+.value-field {
+  background-color: white;
+  display: flex;
+  font-weight: 500;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px 10px;
+  width: 125px;
+}

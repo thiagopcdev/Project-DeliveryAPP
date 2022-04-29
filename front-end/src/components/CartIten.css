@@ -1,0 +1,40 @@
+.cartIten {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 30px;
+}
+
+.itenDescription {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cartIten div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartItenValues h2 {
+  height: 30px;
+  margin: 10px 40px;
+  text-align: center;
+  width: 40px;
+}
+
+.cartIten div h2 {
+  margin: 0 50px 0 10px;
+}
+
+.cartItenValues {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* #itenNumber {
+  background-color: #2fc18c;
+  height: 30px;
+  text-align: center;
+  width: 40px;
+} */

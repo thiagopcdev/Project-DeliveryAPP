@@ -1,0 +1,22 @@
+.admin-page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.error-container-error {
+  align-items: center;
+  background-color: rgb(228, 131, 131);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.error-container-ok {
+  align-items: center;
+  background-color: rgba(6, 59, 250, 0.397);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}

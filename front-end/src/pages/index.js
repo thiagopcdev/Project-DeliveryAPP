@@ -1,0 +1,10 @@
+export { default as CustomerOrders } from './Customer/CustomerOrders';
+export { default as SellerOrders } from './Seller/SellerOrders';
+export { default as NotFound } from './NotFound';
+export { default as Login } from './Login';
+export { default as Register } from './Register';
+export { default as CustomerProducts } from './CustomerProducts/CustomerProducts';
+export { default as ClientCheckout } from './ClientCheckout';
+export { default as MyOrderDetails } from './MyOrderDetails';
+export { default as SellerOrderDetails } from './SellerOrderDetails';
+export { default as Admin } from './Admin/Manage';

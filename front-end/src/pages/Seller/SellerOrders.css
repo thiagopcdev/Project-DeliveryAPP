@@ -1,0 +1,12 @@
+.client-orders-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardList-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 60px;
+  text-decoration: none;
+}
+

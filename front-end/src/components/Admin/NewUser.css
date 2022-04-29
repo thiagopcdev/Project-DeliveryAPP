@@ -1,0 +1,56 @@
+.newUser-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 1100px;
+}
+
+.newUser-container p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.fields-container {
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  padding: 0 10px 20px;
+}
+
+.fields-container input, select {
+  padding: 10px 5px;
+  width: 190px;
+}
+
+.btn-register-false {
+  background-color: #036b52;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  margin: 33px 10px 0;
+  padding: 10px 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-register-false:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.btn-register-true {
+  background-color: #036b52;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  margin: 33px 10px 0;
+  opacity: 0.2;
+  padding: 10px 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.fields-container label {
+  margin-left: 20px;
+  margin-top: 15px;
+}

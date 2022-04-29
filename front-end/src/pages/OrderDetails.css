@@ -1,0 +1,36 @@
+.pageName {
+  font-size: x-large;
+  margin: 70px 10% 10px;
+}
+
+.infos {
+  border: 1px solid black;
+  margin: 10px 10%;
+}
+
+.mainInfos {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 15px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 30px;
+}
+
+.description div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description div p {
+  margin: 10px;
+}
+
+.totalValue {
+  display: flex;
+  justify-content: end;
+  margin: 10px 30px;
+}
