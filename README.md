@@ -129,3 +129,14 @@ O projeto em si é super divertido! Como dado no contexto, criamos uma plataform
 ####  46 - (`Bônus`) Crie testes que cubram no mínimo 60 por cento dos arquivos do front-end e back-end em src com um mínimo de 150 linhas cobertas em cada
 
 ####  47 - (`Bônus`) Crie testes que cubram no mínimo 90 por cento dos arquivos do front-end e back-end em src com um mínimo de 225 linhas cobertas em cada
+
+### To run:
+
+1. Clone the repository
+  * `git clone git@github.com:thiagopcdev/Project-DeliveryAPP.git`
+2. Enter the repository folder you just cloned:
+  * `cd SD-012-PROJECT-DELIVERY-APP`
+3. Install the dependencies:
+  * `npm install`
+4. Run the program:
+  * `npm start`
